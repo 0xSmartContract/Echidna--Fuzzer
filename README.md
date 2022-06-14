@@ -1,3 +1,5 @@
+# Echidna-Fuzzer <img width="69" alt="Ekran Resmi 2022-05-24 21 06 31" src="https://user-images.githubusercontent.com/104318932/170104621-73a8528a-370a-43f5-b60c-9ef321ee03f9.png">
+
 # Fuzz tests for the ABDK Math 64.64 library using Echidna
 This was my submission to the Secureum CAREX  Echidna workshop. Find 2 issues and successful, accepted
 
