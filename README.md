@@ -1,5 +1,6 @@
 # Fuzz tests for the ABDK Math 64.64 library using Echidna
-This was my submission to the Secureum CAREX TOB Echidna workshop. Didn't find any artificial issues for the evaluation for this submission was disqualified because the code couldn't compile correctly. I would suggest looking at [BMateo](https://github.com/BMateo/EchidnaWorkshop/blob/main/contracts/Echidna-CAREX.sol) for he found 7/10. Still this may be a good learning source to look at and pick apart so enjoy!
+This was my submission to the Secureum CAREX  Echidna workshop. Find 2 issues and successful, accepted
+
 
 ## Before starting
 
@@ -31,13 +32,6 @@ Additionally, from time to time, you should remove the corpus using `rm -Rf corp
 
 The recommended Solidity version for the fuzzing campaign is 0.8.1, however, more recent releases can be used as well.
 
-## Expected Results and Evaluation
-
-User should be able to fully test the *Math 64.64 library*. It is worth mentioning that the code is unmodified and there are no known issues. 
-If you find some security or correctness issue in the code do NOT post it in this repository nor upstream, since these are public messages.
-Instead, [contact us by email](mailto:gustavo.grieco@trailofbits.com) to confirm the issue and discuss how to proceed.
-
-For Secureum, the resulting properties will be evaluated introducing an artificial bug in the code and running a short fuzzing campaign. 
 
 ## Documentation
 
